@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color:plum;
+        }
+        h1
+        {
+            font-size:25px;
+            padding-top: 15px;
+            padding-top: 8px;
+            text-align: center;
+        }
+        
+        fieldset
+        {
+            width:70%;
+            border-radius: 15px;
+            border-color:purple;
+            background-color:rgb(245, 212, 245);
+        }
+        form
+        {
+            padding-left: 250px;
+        }
+        table
+        {
+            padding-left: 220px;
+        }
+        h3
+        {
+            padding-left:180px;
+        }
+        td
+        {
+            font-size: 18px;
+        }
+       
+        input
+        {
+            border-top: 0;
+            border-left:0;
+            border-right:0;
+            background-color:rgb(245, 212, 245);
+            border-color: purple;
+            
+        }
+        button
+        {
+            background-color: purple;
+            width:150px;
+            height:40px;
+            color:white;
+            border-radius: 10px;
+            border:0;
+        }
+        #btn
+        {
+            padding-left: 250px;
+            padding-bottom: 15px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <b><h1>Student Academic Details Form</h1></b>
+        <div id="form">
+            <form>
+            <fieldset>
+                <table> 
+                    <tr>
+                        <td>
+                             Name:
+                        </td>
+                        <td>
+                            <input type="text" name="username" size="30" maxlength="30"
+                            placeholder="Enter Name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                             Jntu No:
+                        </td>
+                        <td>
+                            <input type="text" name="username" size="30" maxlength="30"
+                            placeholder="Enter JNTU number">
+                        </td>
+                    </tr>
+                </table>
+               <table>
+                <tr>
+                    <td>
+                        CGPA:
+                        <input type="text" name="score" size="20" maxlength="10">
+                     </td>
+                </tr>
+                <tr>
+                     <td>
+                        Year Of Passing:
+                        <input type="text" name="year" size="20" maxlength="10">
+                     </td>
+                </tr>
+                <tr>
+                     <td>
+                         No.of Backlogs:
+                         <input type="text" name="year" size="20" maxlength="10">
+                     </td>
+                </tr>
+            </table><Br>
+            <table>
+                <tr>
+                    <td>
+                        Branch:
+                    </td>
+                    <td>
+                        <input id="cse" type="radio" name="branch" value="CSE">CSE<br>
+                        <input id="ece" type="radio" name="branch" value="ECE">ECE<br>
+                        <input id="eee" type="radio" name="branch" value="EEE">EEE<br>
+                        <input id="mech" type="radio" name="branch" value="MECH">MECH<br>
+                        <input id="civ" type="radio" name="branch" value="CIV">CIV
+                    </td>
+                </tr>
+            </table>
+            <div id="btn">
+            <button type="submit">SUBMIT</button>
+            <button type="reset">RESET</button>
+            </div>
+            </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
